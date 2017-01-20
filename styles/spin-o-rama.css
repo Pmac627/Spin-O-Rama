@@ -1,0 +1,258 @@
+/* spin-o-rama.css */
+@font-face {
+    font-family: 'lemondrop';
+    src: url('../fonts/lemondrop.eot');
+    src: url('../fonts/lemondrop.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/lemondrop.woff') format('woff'),
+         url('../fonts/lemondrop.ttf') format('truetype'),
+         url('../fonts/lemondrop.svg#lemondropregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'atomic_clock';
+    src: url('../fonts/atomicclock.eot');
+    src: url('../fonts/atomicclock.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/atomicclock.woff') format('woff'),
+         url('../fonts/atomicclock.ttf') format('truetype'),
+         url('../fonts/atomicclock.svg#atomic_clock_radioregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+	background: url('../images/slotbgrepeat1.jpg') repeat;
+	font-family: Verdana, Arial;
+}
+
+table {
+	background: url('../images/slotbg2.png') no-repeat;
+	height: 994px;
+	margin: 0 auto;
+	width: 1348px;
+	border-collapse: collapse;
+}
+
+td {
+	border-collapse: collapse;
+}
+
+button {
+	background: url('../images/spin-ball.png') no-repeat;
+	font-family: lemondrop, Arial;
+	display: block;
+	width: 164px;
+	height: 164px;
+	border-radius: 82px;
+	font-size: 40px;
+	color: #FAEF4D;
+	text-shadow: -3px 0 black, 0 3px black, 3px 0 black, 0 -3px black;
+	-moz-text-shadow: -3px 0 black, 0 3px black, 3px 0 black, 0 -3px black;
+	-webkit-text-shadow: -3px 0 black, 0 3px black, 3px 0 black, 0 -3px black;
+	cursor: pointer;
+}
+
+.slot1 {
+	background: url('../images/reel_normal.jpg') repeat-y;
+	background-position: 0px 0px;
+	max-width: 98px;
+	height: 323px;
+	border-radius: 5px;
+}
+
+.slot2 {
+	background: url('../images/reel_normal.jpg') repeat-y;
+	background-position: 0px 323px;
+	max-width: 97px;
+	height: 323px;
+	border-radius: 5px;
+}
+
+.slot3 {
+	background: url('../images/reel_normal.jpg') repeat-y;
+	background-position: 0px 1615px;
+	max-width: 97px;
+	height: 323px;
+	border-radius: 5px;
+}
+
+.slot4 {
+	background: url('../images/reel_normal.jpg') repeat-y;
+	background-position: 0px 969px;
+	max-width: 98px;
+	height: 322px;
+	border-radius: 5px;
+}
+
+.slot5 {
+	background: url('../images/reel_normal.jpg') repeat-y;
+	background-position: 0px 2261px;
+	max-width: 97px;
+	height: 322px;
+	border-radius: 5px;
+}
+
+.motion1 {
+	background: url("../images/reel_blur.jpg") repeat-y;
+	background-position: 0px 646px;
+}
+
+.motion2 {
+	background: url("../images/reel_blur.jpg") repeat-y;
+	background-position: 0px 1292px;
+}
+
+.motion3 {
+	background: url("../images/reel_blur.jpg") repeat-y;
+	background-position: 0px 969px;
+}
+
+.motion4 {
+	background: url("../images/reel_blur.jpg") repeat-y;
+	background-position: 0px 0px;
+}
+
+.motion5 {
+	background: url("../images/reel_blur.jpg") repeat-y;
+	background-position: 0px 323px;
+}
+
+#result {
+	font-family: lemondrop, Arial;
+	font-size: 25px;
+	font-weight: bold;
+	height: 100px;
+	line-height: 50px;
+	padding-left: 80px;
+	padding-right: 10px;
+	text-align: center;
+	color: #FAEF4D;
+	text-shadow: -3px 0 black, 0 3px black, 3px 0 black, 0 -3px black;
+	-moz-text-shadow: -3px 0 black, 0 3px black, 3px 0 black, 0 -3px black;
+	-webkit-text-shadow: -3px 0 black, 0 3px black, 3px 0 black, 0 -3px black;
+}
+
+#arrow-popup {
+	position: relative;
+	z-index:99999;
+	top: -800px;
+	left: 150px;
+	background-image: url('../images/claim.png');
+	background-repeat: no-repeat;
+	height: 400px;
+	width: 400px;
+}
+
+#row1 {
+	height: 202px;
+}
+
+#row2 {
+	height: 75px;
+}
+
+.row2-column2 {
+	width: 164px;
+}
+
+.row2-column3 {
+	width: 449px;
+}
+
+.row3-column1 {
+	width: 132px;
+	height: 88px;
+}
+
+.row3-column2, .row3-column8 {
+	width: 98px;
+}
+
+.row3-column4, .row3-column6, .row3-column10 {
+	width: 97px;
+}
+
+.row3-column3, .row3-column5, .row3-column9 {
+	width: 7px;
+}
+
+.row3-column7 {
+	width: 9px;
+}
+
+#row4 {
+	height: 233px;
+}
+
+#row5 {
+	height: 65px;
+}
+
+#row6 {
+	font-family: atomic_clock, Arial;
+	font-size: 36px;
+	color: red;
+	height: 44px;
+}
+
+.row6-column2 {
+	text-align: right;
+	padding-top: 6px;
+}
+
+.row6-column3 {
+	text-align: left;
+	padding-left: 20px;
+	padding-top: 6px;
+}
+
+#row7 {
+	height: 145px;
+}
+
+#row8 {
+	height: 100px;
+}
+
+.clear {
+	clear: both;
+}
+
+.winner-form {
+	width: 600px;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #FFFFFF;
+	border: 3px double red;
+	text-align: center;
+}
+
+.form-row {
+	display: inline-block;
+	width: 600px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.form-label {
+	display: inline-block;
+	width: 158px;
+	text-align: right;
+}
+
+.form-input {
+	display: inline-block;
+	width: 400px;
+	text-align: left;
+	margin-right: 30px;
+}
+
+.form-button {
+	display: inline-block;
+	position: relative;
+	width: 200px;
+	margin: 10px auto;
+	padding: 5px;
+}
